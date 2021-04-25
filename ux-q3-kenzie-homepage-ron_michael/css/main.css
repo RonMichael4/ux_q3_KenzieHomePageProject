@@ -155,6 +155,16 @@ h2 {
   min-height: 5rem;
 }
 
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.contact_input {
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 /* Media queries */
 
 /* Desktops and laptops ----------- */

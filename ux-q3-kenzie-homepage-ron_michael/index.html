@@ -169,8 +169,16 @@
         Kenzie Academy is no small commitment. If we've piqued your interst
         today, we'd love to keep the conversation going.
       </p>
-      <!-- forms -->
-      <a href=""><button class="button--white">Submit</button></a>
+      <form action="https://formspree.io/f/mjvjknrn" class="contact_form" method="POST">
+        <div class="contact_form_name">
+        <input type="text" class="contact_input" name="firstName" placeholder="First Name" required>
+        <input type="text" class="contact_input" name="lastName" placeholder="Last Name" required>
+      </div>
+        <input type="email" class="contact_input" name="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
+        <input type="tel" class="contact_input" name="phone" placeholder="Phone" required>
+        <input type="submit" class="button--white" value="Submit">
+
+      </form>
     </section>
   </body>
 </html>
