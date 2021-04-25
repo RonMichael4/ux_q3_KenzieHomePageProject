@@ -1,0 +1,60 @@
+/* Base Styles */
+body {
+  min-height: 100vh;
+  background: #ffffff;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+button {
+  border-radius: 5%;
+  width: auto;
+  padding: 0.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+/* Layout Styles */
+.header {
+  text-align: center;
+  margin: 2rem;
+}
+
+.schedules {
+  display: flex;
+  flex-direction: column;
+}
+
+.additional_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.schedule_item {
+  display: flex;
+  align-items: center;
+  border: 2px solid grey;
+  padding: 1rem;
+  margin: 1rem 2rem;
+}
+
+.schedule_text {
+  margin-left: 0.5rem;
+}
+
+/* Block Styles */
+
+.button--dark {
+  color: white;
+  background-color: blueviolet;
+}
