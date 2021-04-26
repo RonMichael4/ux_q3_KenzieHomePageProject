@@ -6,11 +6,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  color: #00356b;
 }
 
 a {
   text-decoration: none;
-  color: blueviolet;
+  color: #00356b;
 }
 
 button {
@@ -59,6 +60,6 @@ h2 {
 /* Block Styles */
 
 .button--dark {
-  color: white;
-  background-color: blueviolet;
+  color: #a6ffdc;
+  background-color: #00356b;
 }
