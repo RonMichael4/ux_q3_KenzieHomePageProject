@@ -6,17 +6,25 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  color: #00356b;
 }
 
 a {
   text-decoration: none;
-  color: blueviolet;
+  color: #00356b;
+}
+a:hover {
+  color: #a6ffdc;
 }
 
 button {
   border-radius: 5%;
   width: auto;
   padding: 0.5rem;
+}
+
+button:hover {
+  color: #a6ffdc;
 }
 
 h2 {
@@ -134,14 +142,14 @@ h2 {
 }
 
 .button--dark {
-  color: white;
-  background-color: blueviolet;
+  color: #a6ffdc;
+  background-color: #00356b;
 }
 
 .button--white {
   background-color: white;
-  color: blueviolet;
-  border-color: blueviolet;
+  color: #00356b;
+  border-color: #00356b;
 }
 
 .students {
